@@ -1,6 +1,6 @@
 class Helpers
   
   def self.current_user(session_hash)
-    User
+    @user = User.find_by()
   
 end
