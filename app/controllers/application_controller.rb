@@ -12,7 +12,7 @@ class ApplicationController < Sinatra::Base
 
   post '/login' do
     if User.find_by(params[:username])
-      
+      session[:user_id]
     
   end
 
