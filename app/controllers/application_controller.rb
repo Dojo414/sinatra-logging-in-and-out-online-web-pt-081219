@@ -11,7 +11,8 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/login' do
-    if 
+    if User.find_by(params[:username])
+      
     
   end
 
